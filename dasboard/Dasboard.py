@@ -4,8 +4,8 @@ import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
 
 # Memuat dataset day.csv dan hour.csv
-day_data = pd.read_csv('day.csv')
-hour_data = pd.read_csv('hour.csv')
+day_data = pd.read_csv('dasboard/day.csv')
+hour_data = pd.read_csv('dasboard/hour.csv')
 
 # Judul aplikasi Streamlit
 st.title("Dashboard Analisis Penggunaan Sepeda")
